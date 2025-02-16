@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="pantalla3.css" />
+    <link rel="stylesheet" href="css general del login.css">
+    <link rel="stylesheet" href="../../css general.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="todo">
+    <div class="tituloEintroducción">
+        <div>
+              <h1 class="saludo">¡Hola,</h1>
+               <h1 class="saludo">soy OTIS!</h1> 
+      </div>
+                <p class="explicaciontexto" id="prueba">Apretaste “Iniciar sesión”, aqui tienes que ingresar tu usuario y contraseña, si aun no tienes una cuenta, puedes volver atras con el boton de la derecha</p>
+    </div>
+<section class="centro">
+    <div class="rayita"></div>
+        <div class="contenedor">  
+            <h2>Iniciar Sesión</h2>
+            <div>
+            <p>Tu usuario</p>
+            <input type="text" id="usuario" placeholder="Usuario">
+        </div>
+        <div>
+        <p>Tu contraseña</p>
+        <input type="password" id="contraseña" placeholder="Contraseña">
+        </div>
+
+        <button class="entrar" id="botonLogin"><p> entrar</p></button>
+        </div>
+    <div class="rayita"></div>
+</section>
+    <div class="regresar">
+        <img src="../../otis.png" alt="" class="otisApareceDeLaNada">
+     <a class="tdnn" href="pantalla3.html">   <button>
+            <img src="atras.png" alt="regresar">
+            <p>Atras</p>
+        </button> 
+     </a>      
+    </div>
+    <div class="no" id="no"><p id="nomensaje"></p></div>
+</div>
+<script src="../testing/entrar.js" type="module"></script>
+<script src="loginJS.js" type="module"></script>
+</body>
+</html>
