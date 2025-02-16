@@ -1,0 +1,133 @@
+body{
+    height: 100vh;
+    background-color: #618fbf;
+} 
+    .explicacioncont{
+    display: flex;
+    justify-content: center;
+  }
+  .imagenYsaludo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 81%;
+  justify-content: space-between;
+  }
+  .explicacion{
+    width: 533px;
+  display: flex;
+  justify-content:  center;
+  height: 180px;
+  }
+  
+  .rayitaa{
+    width: 0.8%;
+    height: 100%;
+    background-color: #1B4878;
+  align-self: center;
+  }
+  
+  .cuenta{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 49%;
+  }
+  
+  .concuenta{
+    width:420px;
+    height: 123px;
+    border-width: 3px;
+    border-radius: 32px;
+    border-color: #1B4878;
+    background-color: #B0C2D6;
+    font-size: 55px;
+    color: #1B4878;
+    font-family: "Lilita One";
+  }
+  .incognito{
+    width:420px;
+    height: 158px;
+    border-width: 3px;
+    border-radius: 32px;
+    border-color: #1B4878;
+    background-color: #B0C2D6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .iniciarsincuenta{
+    font-size: 55px;
+    color: #1B4878;
+    font-family: "Lilita One";
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .tituloEintroducción{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .tdn{
+    width: 65%;
+  }
+  .tdn > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .todo{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+  background-color: #618FBF;
+  }
+  .explicaciontexto{
+    width: 85%;
+    font-size: 2.3125em;;
+    color: #1B4878;
+    font-family: "Lilita One";
+  }
+  .saludo{
+    font-size: 4em;
+    color: #1B4878;
+  font-family: "Lilita One";
+  }
+
+
+
+
+
+
+  *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+p, h1, h2, h3{
+    font-family: "Lilita One";
+    color: #1B4878;
+}
+body{
+    background-color: #618fbf;
+    height: 100vh;
+    width: 100vw;
+}
+
+.otis{
+    width: 50%;
+  }
