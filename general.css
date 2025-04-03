@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+p, h1, h2, h3{
+    font-family: "Lilita One";
+    color: #1B4878;
+}
+body{
+    background-color: #618fbf;
+    height: 100vh;
+    width: 100vw;
+}
+.arriba{
+    width: 100%;
+    height: 22%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom-width: 11px;
+    border-bottom-color: #1B4878;
+    border-bottom-style: solid;
+}
+.sub-arriba, .sub-arriba2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+.sub-arriba{
+    width: 47%;
+}
+.sub-arriba2{
+    width: 52%;
+}
+.otislogo{
+    height: 90%;
+}
+.confboton{
+    width: 57%;
+    border-right-width: 0px;
+}
+.configuracion{
+ height: 64%;
+}
+.confboton, .perfboton{
+    background-color: #618fbf;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom-width: 0px;
+    height: 100%;
+    border-top: 0ch;
+    border-style: solid;
+    border-color: #1B4878;
+}
+.perfboton{
+    border-right: 0ch;
+    height: 100%;
+}
+.sub-arriba > .tdn{
+    height: 100%;
+}
+.perfil{
+    height: 59%;
+}
+.tdn, .tdnn, .tdnnn{
+    text-decoration: none;
+}
+button{
+    background-color: #85A5C7;
+    border-color: #1B4878;
+    border-style: solid;
+}
+.tdn > button{
+width: 100%;
+display: flex;
+align-items: center;
+}
+.OTISs{
+    font-size: 5.3125em;
+}

@@ -1,0 +1,73 @@
+main{
+    display: flex;
+    flex-direction: row;
+}
+section{
+    margin-top: 10px;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+.globoytexto{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dialogo{
+    position: absolute;
+    font-size: 2em;
+    width: 25%;
+    margin-left: 2%;
+}
+.dialogo > p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.globodetexto{
+    width: 84%;
+}
+.otis{
+    width: 52%;
+}
+.tdn{
+    width: 41%;
+}
+.quehacer{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border: 1px #1B4878 solid;
+    border-radius: 13%;
+    background-color: #527EAC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quehacer > p{
+    color: white;
+    font-size: 2em;
+}
+.quehacer > img{
+    width: 52%;
+}
+.notdn{
+    text-decoration: none;
+}
+
+.notdn > button{
+    position: absolute;
+    bottom:5.9%;
+    right: 1.7%;
+    width: 38%;
+    height: 11%;
+    border: 1px #1B4878 solid;
+    border-radius: 35px; 
+}
+.notdn > button > p{
+    font-size: 2.5em;
+}

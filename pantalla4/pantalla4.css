@@ -1,0 +1,48 @@
+.presentacion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.los4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 78%;
+    width: 100%;
+}
+.botonpr{
+    height: 100%;
+    width: 100%;
+    background-color: #3E6288;
+    border-color: #1B4878;
+    border-width: 5px;
+    border-radius: 13%;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.OTIS{
+    font-size: 60px;
+    margin: 0px;
+}
+.botonarriba{
+    border-width: 0px;
+    background-color: white;
+    font-size: 20px;
+}
+.tdnn{
+    width: 20%;
+    aspect-ratio: 1/1;
+}
+.imgbtn{
+    width: 62%;
+    aspect-ratio: 1/1;
+}
+.elpdelbtn{
+    font-size: 2.5em;
+    color: #ffffff;
+}

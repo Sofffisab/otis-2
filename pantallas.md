@@ -19,3 +19,6 @@ Pantalla 18: Menú relajación
 Pantalla 19: Dividir
 Pantalla 20: Respirar
 Pantalla 21: JUEGO 4 EN DUDA
+
+Recursos: 
+https://icons8.com/icons/set/settings 
